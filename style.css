@@ -4,8 +4,73 @@
     padding: 0;
 }
 
-.container::after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
+
+.debug> .content {
+    height: 900px;
+
+}
+
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header {
+    height: 100px;
+    background-color: yellow;
+}
+
+.intro {
+    height: 300px;
+    background-color: violet;
+}
+
+.leadership {
+    height: 100px;
+    background-color: teal;
+}
+
+.maincontent {
+    float: left;
+}
+
+.sx {
+    float: left;
+}
+
+.dx {
+    float: right;
+}
+
+.menu {
+    width: 24%;
+    height: 500px;
+    background-color: yellowgreen;
+}
+
+.maincontent {
+    width: 48%;
+    height: 500px;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: tomato;
+}
+
+footer {
+    height: 50px;
+    background-color: brown;
+}
+
+
+
+
+
+
+
+
+
